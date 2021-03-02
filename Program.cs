@@ -13,6 +13,14 @@ namespace TestApp
                 if (nums[i] > max) max = nums[i];
             }
             Console.WriteLine("Maximum number is " + max.ToString());
+
+            var min = int.MaxValue;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] < min) min = nums[i];
+            }
+            Console.WriteLine("Minimum number is " + min.ToString());
+            Console.ReadLine();
         }
     }
 }
