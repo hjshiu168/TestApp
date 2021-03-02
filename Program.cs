@@ -6,6 +6,9 @@ namespace TestApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Find min and max number");
+
+
             int[] nums = new int[] { 1, 3, 5, 8, 13 };
             var max = 0;
             for (int i = 0; i < nums.Length; i++)
