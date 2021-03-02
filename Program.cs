@@ -15,6 +15,7 @@ namespace TestApp
             Console.WriteLine("Maximum number is " + max.ToString());
 
 
+
             var min = int.MaxValue;
             for (int i = 0; i < nums.Length; i++)
             {
